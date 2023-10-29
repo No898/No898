@@ -64,8 +64,6 @@
     <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=no898&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="33" alt="discord logo"  />
   </a>
   <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="33" alt="linkedin logo"  />
-  <a href="https://www.hackerrank.com/profile/Dinh5" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=HackerRank&logo=hackerrank&label=&color=2EC866&logoColor=white&labelColor=&style=for-the-badge" height="33" alt="hackerrank logo"  />
   </a>
 </div>
 
