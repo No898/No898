@@ -68,11 +68,8 @@
 </div>
 
 ###
-https://github.com/No898/No898/blob/output/github-contribution-grid-snake.svg
-https://raw.githubusercontent.com/No898/No898/github-contribution-grid-snake.svg
-https://raw.githubusercontent.com/No898/No898/95d80c0d990dd60716a51424255571a6bb446fb9/github-contribution-grid-snake.svg
 <br clear="both">
-https://raw.githubusercontent.com/No898/No898/95d80c0d990dd60716a51424255571a6bb446fb9/github-contribution-grid-snake.svg
-<img src="https://raw.githubusercontent.com/No898/No898/output/snake.svg" alt="Snake animation" />
+
+<img src="[https://raw.githubusercontent.com/No898/No898/output/snake.svg](https://github.com/No898/No898/blob/output/github-contribution-grid-snake.svg)https://github.com/No898/No898/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 
 ###
