@@ -70,6 +70,6 @@
 ###
 <br clear="both">
 
-<img src="" a![github-contribution-grid-snake](https://github.com/No898/No898/assets/82420070/eb8bfb8c-d2c7-4f39-9c77-ba59fe07393f)>
+a![github-contribution-grid-snake](https://github.com/No898/No898/assets/82420070/eb8bfb8c-d2c7-4f39-9c77-ba59fe07393f)
 
 ###
