@@ -69,7 +69,7 @@
 
 ###
 <br clear="both">
-![Snake animation](https://github.com/no898/no898/blob/output/github-contribution-grid-snake.svg)
-![github-contribution-grid-snake](https://github.com/No898/No898/blob/output)
+
+![Snake animation](https://github.com/No898/No898/blob/output/github-contribution-grid-snake.svg)
 
 ###
