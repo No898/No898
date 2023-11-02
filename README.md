@@ -70,6 +70,6 @@
 ###
 <br clear="both">
 
-![Snake animation](https://github.com/No898/No898/blob/outputgithub-contribution-grid-snake-dark.svg)
+![Snake animation](https://github.com/No898/No898/blob/output/github-contribution-grid-snake-dark.svg)
 
 ###
