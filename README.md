@@ -69,7 +69,7 @@
 
 ###
 <br clear="both">
-
-![github-contribution-grid-snake]([https://github.com/No898/No898/assets/82420070/eb8bfb8c-d2c7-4f39-9c77-ba59fe07393f](https://raw.githubusercontent.com/No898/No898/output/github-contribution-grid-snake-dark.svg)https://raw.githubusercontent.com/No898/No898/output/github-contribution-grid-snake-dark.svg)
+![Snake animation](https://github.com/no898/no898/blob/output/github-contribution-grid-snake.svg)
+![github-contribution-grid-snake](https://github.com/No898/No898/blob/output)
 
 ###
