@@ -6,8 +6,8 @@
 ---
 
 [![Video Title](http://img.youtube.com/vi/til1yw6eJio/0.jpg)](http://www.youtube.com/watch?v=til1yw6eJio "Video Title")
-
 <img align="right" height="200" src="https://cdn.discordapp.com/attachments/1061300197340229753/1076809608586342500/Piggie_raccoon_style_of_banksy_0_3e1d3026-8452-46c0-98d7-5c1f9eb4a9c0.png?ex=65476b98&is=6534f698&hm=58554a7733f9e858dd5563f410c6e8cf0b3f72c60fbef1448ef7de349816ae5c&" />
+
 ---
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
