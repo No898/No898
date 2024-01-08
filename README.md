@@ -6,7 +6,7 @@
 ---
 
 <div align="center">
-  <a href="http://www.youtube.com/watch?v=til1yw6eJio" title="Video Title">
+  <a href="http://www.youtube.com/watch?v=til1yw6eJio" title="Video Title" target="_blank">
     <img src="http://img.youtube.com/vi/til1yw6eJio/0.jpg" alt="Video Title">
   </a>
 </div>
