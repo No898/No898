@@ -1,16 +1,15 @@
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=No898&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="120" alt="stats graph"  />
-<!--   <img src="https://streak-stats.demolab.com?user=No898&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="120" alt="streak graph"  />
- -->  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=No898&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="120" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=No898&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="120" alt="languages graph"  />
 </div>
 
-###
+---
 
-<img align="right" height="200" src="https://cdn.discordapp.com/attachments/1061300197340229753/1076809608586342500/Piggie_raccoon_style_of_banksy_0_3e1d3026-8452-46c0-98d7-5c1f9eb4a9c0.png?ex=65476b98&is=6534f698&hm=58554a7733f9e858dd5563f410c6e8cf0b3f72c60fbef1448ef7de349816ae5c&"  />
+[![Video Title](http://img.youtube.com/vi/til1yw6eJio/0.jpg)](http://www.youtube.com/watch?v=til1yw6eJio "Video Title")
+<img align="right" height="200" src="YOUR_IMAGE_LINK.png"  />
 
-###
-
-<div align="left">
+---
+<div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
@@ -56,7 +55,7 @@
 
 ###
 
-<div align="left">
+<div align="center">
   <a href="https://instagram.com/thepiggie" target="_blank">
   <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="33" alt="instagram logo"  />
   </a>
@@ -69,11 +68,11 @@
 </div>
 
 ###
+---
+
 <br clear="both">
 
 ![Snake animation](https://github.com/No898/No898/blob/output/github-contribution-grid-snake-dark.svg)
 
 ###
-
-[![Video Title](http://img.youtube.com/vi/til1yw6eJio/0.jpg)](http://www.youtube.com/watch?v=til1yw6eJio "Video Title")
 
