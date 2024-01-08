@@ -4,9 +4,9 @@
 </div>
 
 ---
-
+<div align="center">
 [![Video Title](http://img.youtube.com/vi/til1yw6eJio/0.jpg)](http://www.youtube.com/watch?v=til1yw6eJio "Video Title")
-
+</div>
 ---
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
@@ -70,8 +70,8 @@
 ---
 
 <br clear="both">
-
+<div align="center">
 ![Snake animation](https://github.com/No898/No898/blob/output/github-contribution-grid-snake-dark.svg)
-
+</div>
 ###
 
