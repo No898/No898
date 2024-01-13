@@ -7,7 +7,7 @@
 
 <div align="center">
   <a href="http://www.youtube.com/watch?v=til1yw6eJio" title="Video Title" target="_blank">
-    <img src="http://img.youtube.com/vi/til1yw6eJio/0.jpg" alt="Video Title">
+    <img src="https://cdn.discordapp.com/attachments/1024062901943799908/1195567675980644352/lolidance.gif?ex=65b4762a&is=65a2012a&hm=9457ae120d8c3cfc890046a498ab123d55c181c461764251805227ccd378cc80" alt="Video Title">
   </a>
 </div>
 
