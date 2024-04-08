@@ -10,7 +10,7 @@
 
 <div align="center">
   <a href="http://www.youtube.com/watch?v=til1yw6eJio" title="Video Title" target="_blank">
-    <img src="https://github.com/No898/No898/assets/82420070/673d7261-1138-4c76-8722-fd03c7893921" alt="Video Title">
+    <img src="https://media1.tenor.com/m/BBO_U-ttqtcAAAAC/shigure-ui-dance.gif" alt="Video Title">
   </a>
 </div>
 
