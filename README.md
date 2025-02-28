@@ -74,9 +74,11 @@
 </div>
 
 ###
----
+<div align="center">
 
+![GitHub Snake Animation](https://raw.githubusercontent.com/No898/No898/output/github-contribution-grid-snake-dark.svg)
 
+</div>
 
 ###
 
