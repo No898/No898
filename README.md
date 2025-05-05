@@ -68,7 +68,7 @@
 ###
 <div align="center">
 
-![GitHub Snake Animation](hhttps://github.com/No898/No898/blob/gh-pages/github-contribution-grid-snake-dark.svg)
+![GitHub Snake Animation](https://github.com/No898/No898/blob/gh-pages/github-contribution-grid-snake-dark.svg)
 
 </div>
 
