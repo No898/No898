@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github-readme-stats-git-master-no898s-projects.vercel.app/api?username=no898&show_icons=true&theme=dracula&cache_seconds=86400" height="120" alt="stats graph"  />
+  <img src="https://github-readme-stats-git-master-no898s-projects.vercel.app/api?username=no898&show_icons=true&theme=dracula&cache_seconds=86400&v=2" height="120" alt="stats graph"  />
 
 
   
@@ -36,4 +36,3 @@
 </div>
 
 ###
-
