@@ -1,43 +1,88 @@
 name: generate animation
 
 on:
-  # Spouští se automaticky každých 24 hodin
+  # Spouští se automaticky každý den.
   schedule:
-    - cron: "0 0 * * *" 
-  
-  # Umožňuje ruční spuštění workflow kdykoli
+    - cron: "0 0 * * *"
+
+  # Umožňuje ruční spuštění workflow.
   workflow_dispatch:
-  
-  # Spouští se při každém pushi do větve master
+
+  # Přegeneruje animaci po změně profilového repozitáře.
   push:
     branches:
-      - master
+      - main
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: true
+
+permissions:
+  contents: write
 
 jobs:
   generate:
-    permissions: 
-      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    
+
     steps:
-      # Generuje hadí hru z grafu příspěvků uživatele, výstupem je svg animace
-      - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3.3.0
+      - name: Checkout profile repository
+        uses: actions/checkout@v7
         with:
-          github_user_name: No898
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-      # Pushuje obsah <build_dir> do cílové větve
-      # Obsah bude dostupný na https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> nebo jako GitHub Page
-      - name: push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v4.1.0
+          fetch-depth: 0
+
+      - name: Use Node.js 24
+        uses: actions/setup-node@v7
         with:
-          target_branch: gh-pages
-          build_dir: dist
+          node-version: 24
+
+      - name: Test contribution data adapter
+        run: node --test scripts/chunked-contributions.test.mjs
+
+      - name: Install snake generator
+        run: >-
+          npm install
+          --prefix "$RUNNER_TEMP/snake-generator"
+          --no-save
+          --ignore-scripts
+          --omit=optional
+          generate-snake-animation@3.5.0
+
+      - name: Generate contribution snake
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          node \
+            --import "$GITHUB_WORKSPACE/scripts/preload-chunked-contributions.mjs" \
+            "$RUNNER_TEMP/snake-generator/node_modules/generate-snake-animation/cli.js" \
+            --github_user="${GITHUB_REPOSITORY_OWNER}" \
+            --output="dist/github-contribution-grid-snake.svg" \
+            --output="dist/github-contribution-grid-snake-dark.svg?palette=github-dark"
+
+      - name: Publish SVG files to gh-pages
+        run: |
+          publish_dir="$RUNNER_TEMP/contribution-snake-pages"
+          git fetch origin gh-pages
+          git worktree add --detach "$publish_dir" origin/gh-pages
+
+          install -m 0644 \
+            dist/github-contribution-grid-snake.svg \
+            "$publish_dir/github-contribution-grid-snake.svg"
+          install -m 0644 \
+            dist/github-contribution-grid-snake-dark.svg \
+            "$publish_dir/github-contribution-grid-snake-dark.svg"
+
+          git -C "$publish_dir" add \
+            github-contribution-grid-snake.svg \
+            github-contribution-grid-snake-dark.svg
+
+          if git -C "$publish_dir" diff --cached --quiet; then
+            echo "Contribution snake is already up to date."
+            exit 0
+          fi
+
+          git -C "$publish_dir" config user.name "github-actions[bot]"
+          git -C "$publish_dir" config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+          git -C "$publish_dir" commit -m "Update contribution snake"
+          git -C "$publish_dir" push origin HEAD:gh-pages
